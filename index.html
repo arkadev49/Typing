@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="leaves.svg" type="image/x-icon" />
+    <title>Typing</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <h1 class="text-lg">Remarks</h1>
+        <div class="lh-h">
+          Average Speed :
+          <span class="avg">0</span>
+          wpm
+        </div>
+        <div class="lh-5">
+          Mamimum Speed :
+          <span class="max">0</span>
+          wpm
+        </div>
+      </div>
+      <div class="lh-5">
+        Your Typing Speed Now is <span class="display">0</span> wpm
+      </div>
+      <div class="text mt-10">
+        <span class="completed"></span
+        ><span class="incomplete">
+          The process of developing a product using engineering principles and
+          methods is referred to as evolution. This includes the initial
+          development of and its maintenance and updates, till desired product
+          is developed, which satisfies the expected requirements.</span
+        >
+        <pre class="hidden-text">
+The process of developing a product using engineering principles and methods is referred to as evolution. This includes the initial development of and its maintenance and updates, till desired product is developed, which satisfies the expected requirements.</pre
+        >
+      </div>
+    </div>
+    <textarea
+      onselectstart="return false"
+      onpaste="return false;"
+      onCopy="return false"
+      onCut="return false"
+      onDrag="return false"
+      onDrop="return false"
+      autocomplete="off"
+      class="input"
+      onkeyup="onChange(event)"
+      type="text"
+      name="type"
+      id="type"
+      rows="10"
+    ></textarea>
+
+    <div>
+      <a class="btn m-2" onclick="onStart()">START</a>
+      <a class="btn m-2" onclick="window.location.reload()">RESET</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
